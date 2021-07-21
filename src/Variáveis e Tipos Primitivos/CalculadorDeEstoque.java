@@ -1,3 +1,5 @@
+
+
 public class CalculadorDeEstoque {
     public static void main(String[] args) {
         
@@ -7,8 +9,10 @@ public class CalculadorDeEstoque {
 
         while (contador < 35) {
             double valorDoLivro = 59.90;
-            soma = soma + valorDoLivro;
-            contador = contador + 1;
+           soma += valorDoLivro;
+            // soma = soma + valorDoLivro;
+           // contador = contador + 1;
+           contador++;
         }
 
         //double livroJava8; reservando região da memória no java com variáveis
