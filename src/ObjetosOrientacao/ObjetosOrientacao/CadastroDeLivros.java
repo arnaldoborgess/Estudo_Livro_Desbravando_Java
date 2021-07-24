@@ -1,4 +1,4 @@
-package ObjetosOriantacao;
+package ObjetosOrientacao;
 
 public class CadastroDeLivros {
 
@@ -17,7 +17,7 @@ public class CadastroDeLivros {
         livro.isbn = "978-85-66250-46-6\n";
 
         livro.autor = autor;
-
+        autor.mostrarDetalhes();
         livro.mostrarDetalhes();
 
         Autor outroAutor = new Autor();
@@ -32,7 +32,7 @@ public class CadastroDeLivros {
         outroLivro.isbn = "978-85-66250-46-6\n";
 
         outroLivro.autor = outroAutor;
-        
+        autor.mostrarDetalhes();
         outroLivro.mostrarDetalhes();
 
 

@@ -1,4 +1,4 @@
-package ObjetosOriantacao;
+package ObjetosOrientacao;
 
 public class Livro {
 
@@ -10,14 +10,25 @@ public class Livro {
 
     void mostrarDetalhes() {
 
-        System.out.println("Detalhes do livro ");
-        System.out.println("Autor: " + autor.nome);
+        System.out.println("\nDetalhes do livro ");
         System.out.println("Nome: " + nome);
         System.out.println("Descrição: " + descricao);
         System.out.println("Valor: " + valor);
         System.out.println("ISBN: " + isbn);
-        System.out.println("--");
-       
 
+        if (this.temAutor()) {
+            autor.mostrarDetalhes();
+        }
+
+        System.out.println("--");
     }
+
+    private boolean temAutor() {
+        return false;
+    }
+
+    public boolean aplicaDescontoDe(double porcentagem) {
+        this.valor -= this.valor * porcentagem;
+    }
+
 }
