@@ -2,5 +2,22 @@
     "java.project.sourcePaths": [
         "src/Variáveis e Tipos Primitivos",
         "src/ObjetosOrientacao"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#252c45",
+        "activityBar.activeBorder": "#914e5d",
+        "activityBar.background": "#252c45",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#914e5d",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "statusBar.background": "#131724",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#252c45",
+        "titleBar.activeBackground": "#131724",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#13172499",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "131724"
 }

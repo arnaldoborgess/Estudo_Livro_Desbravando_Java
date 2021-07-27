@@ -1,4 +1,4 @@
-package ObjetosOrientacao;
+package ObjetosOrientacao.ObjetosOrientacao;
 
 public class CadastroDeLivros {
 
@@ -24,17 +24,20 @@ public class CadastroDeLivros {
         outroAutor.nome = "Paulo Silveira";
         outroAutor.email = "paulo.silveira@caelum.com.br";
         outroAutor.cpf = "123.456.789.10";
+        livro.valor = 59.90;
+        livro.isbn = " ";
 
-        Livro outroLivro = new Livro();
+        Livro outroLivro = new Livro(outroAutor);
         outroLivro.nome = "Lógica de Programação";
         outroLivro.descricao = "Crie seus primeiros programas";
         outroLivro.valor = 59.90;
         outroLivro.isbn = "978-85-66250-46-6\n";
+        livro.isbn = " ";
 
         outroLivro.autor = outroAutor;
+
         autor.mostrarDetalhes();
         outroLivro.mostrarDetalhes();
-
 
 
     }
