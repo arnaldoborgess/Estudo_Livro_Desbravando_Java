@@ -1,4 +1,4 @@
-package ObjetosOrientacao.ObjetosOrientacao;
+package ObjetosOrientacao;
 
 public class Livro {
 
@@ -27,9 +27,10 @@ public class Livro {
         return false;
     }
 
-    void adicionaValor(double valor);
+    void adicionaValor(double valor) {
         this.valor = valor;
-
+    }
+    
     double retornaValor(){
         return this.valor;
     }

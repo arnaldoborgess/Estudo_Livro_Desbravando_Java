@@ -1,4 +1,4 @@
-package ObjetosOrientacao.ObjetosOrientacao;
+package ObjetosOrientacao;
 
 public class RegrasDeDesconto {
     public static void main(String[] args) {
